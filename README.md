@@ -122,8 +122,8 @@ The output data includes:
 ### Configuration
 Update the `config.py` file with the correct paths for the input and output files:
 ```python
-INPUT_PATH = "efes_list.xlsx"
-OUTPUT_PATH = "efes_list_full_analyzed_pipeline_v2.xlsx"
+INPUT_PATH = ".xlsx"
+OUTPUT_PATH = ".xlsx"
 SHEET_NAME = "MenuDetay"
 ```
 
@@ -147,8 +147,8 @@ The processed data will be saved to the output file specified in `config.py`.
 │   ├── wine_rules.py        # Rules for wine detection
 │   ├── ...                  # Rules for other categories
 │   └── common.py            # Common helper functions
-├── efes_list.xlsx           # Input data file (ignored in .gitignore)
-├── efes_list_full_analyzed_pipeline_v2.xlsx  # Output data file
+├── .xlsx                    # Input data file (ignored in .gitignore)
+├── .xlsx                    # Output data file
 └── .gitignore               # Ignore unnecessary files
 ```
 
